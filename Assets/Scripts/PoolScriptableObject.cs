@@ -4,8 +4,9 @@ using UnityEngine;
 
 
 
-[CreateAssetMenu(menuName ="Create/newPool",fileName ="newPool")]
-public class PoolScriptableObject : ScriptableObject
+//[CreateAssetMenu(menuName ="Create/newPool",fileName ="newPool")]
+[System.Serializable]
+public class PoolScriptableObject 
 {
     [System.Serializable]
     public  struct pool
